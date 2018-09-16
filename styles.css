@@ -54,6 +54,7 @@
   right: 12px;
   top: 12px;
   padding: 6px;
+  animation: myfirst 1s 1 ease-out;
 }
 
 .outer-descriptions {
@@ -86,4 +87,9 @@
   .outer-descriptions {
     display: none;
   }
+}
+
+@keyframes myfirst {
+  0%   {top: -30px;}
+  100% { top: 12px;}
 }
