@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<title>Slider</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+<body>
+
+<div class="w3-container">
+  <h2>Slideshow</h2>
+  <p>An example of using bullets to indicate how many slides there are in the slideshow, and which slide the user is currently viewing.</p>
+</div>
+
+<div class="container" style="max-width:800px">
+  <div class="mySlides">
+    <div class="image-text">Description fisrt</div>
+    <img src="images/dest1.png" style="width:100%">
+  </div>
+  <div class="mySlides">
+    <div class="image-text">Description Second</div>
+    <img src="images/dest2.png" style="width:100%">
+  </div>
+  <div class="mySlides">
+    <div class="image-text">Description Third</div>
+    <img src="images/dest3.png" style="width:100%">
+  </div>
+  <div class="mySlides">
+    <div class="image-text">Description Fourth</div>
+    <img src="images/dest4.png" style="width:100%">
+  </div>
+  <div class="buttons-wrapper" style="width:100%">
+    <i class="material-icons arrow" onclick="plusDivs(-1)">keyboard_arrow_left</i>
+    <div class="bullets">
+      <span class="bullet" onclick="currentDiv(1)"></span>
+      <span class="bullet" onclick="currentDiv(2)"></span>
+      <span class="bullet" onclick="currentDiv(3)"></span>
+      <span class="bullet" onclick="currentDiv(4)"></span>
+    </div>
+    <i class="material-icons arrow" onclick="plusDivs(1)">keyboard_arrow_right</i>
+  </div>
+  <div class="static-text">
+    Static Text
+  </div>
+</div>
+<div class="outer-descriptions">
+    <div>Description mobile 1</div>
+    <div>Description mobile 2</div>
+    <div>Description mobile 3</div>
+    <div>Description mobile 4</div>
+  </div>
+
+<script src="index.js">
+</script>
+
+</body>
+</html> 
